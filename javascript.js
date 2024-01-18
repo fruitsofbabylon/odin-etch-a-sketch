@@ -11,3 +11,11 @@ function makeGrid() {
 };
 
 makeGrid();
+
+const squares = document.querySelectorAll('.square');
+
+squares.forEach((square) => {
+  square.addEventListener("mouseenter", () => {
+    square.classList.add("color");
+  });
+});

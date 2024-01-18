@@ -15,3 +15,7 @@
     box-sizing: border-box;
     flex-basis: 6.25%;
 }
+
+.color {
+    background-color: pink;
+}
