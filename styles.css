@@ -1,0 +1,17 @@
+.container {
+    width: 450px;
+    height:450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    flex-basis: 6.25%;
+}
